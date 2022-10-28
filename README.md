@@ -11,5 +11,6 @@ The closest I could get was a series of posts and articles like this one https:/
 
 The above Microsoft link states that:
 
-Optionally, the server project (MultipleBlazorApps.Server) can serve pages or views as a formal Razor Pages or MVC app.
+"Optionally, the server project (MultipleBlazorApps.Server) can serve pages or views as a formal Razor Pages or MVC app."
+
 I wanted to change this advice so that I could also serve Blazor Components from the Server project as well. The following answer describes how I got it to work. Please share any other comments / alternative methods if you have also tried to get this to work. (refer to SO link for answer.)
