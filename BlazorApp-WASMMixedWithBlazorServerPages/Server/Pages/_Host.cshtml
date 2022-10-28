@@ -1,0 +1,9 @@
+﻿@page "/svr"
+
+@namespace BlazorApp_WASMMixedWithBlazorServerPages.Server.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+
+<component type="typeof(ServerApp)" render-mode="ServerPrerendered" />
